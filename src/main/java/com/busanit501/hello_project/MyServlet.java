@@ -19,7 +19,7 @@ public class MyServlet extends HttpServlet{
             resp.setContentType("text/html;charset=UTF-8");
               PrintWriter out = resp.getWriter();   //파일에 쓰거나 읽을 때 인풋 아우풋 스트림 이런 거 나왔는데, 얘는 웹 페이지라는 화면에 쓰는 도구
                 out.println("<html><body>");
-                out.println("<h1>Hello World! 마이서블릿! 이상록 것 입니다</h1>");
+                out.println("<h1>Hello World! 마이서블릿! test 이상록 것 입니다</h1>");
                 out.println("</body></html>");
     }
 

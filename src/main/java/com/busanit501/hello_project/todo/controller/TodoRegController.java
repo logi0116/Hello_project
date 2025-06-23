@@ -1,4 +1,4 @@
-package com.busanit501.hello_project.todo;
+package com.busanit501.hello_project.todo.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,6 +25,5 @@ public class TodoRegController extends HttpServlet {
         // 단순 화면 전환, 리다이렉트
         resp.sendRedirect("/todo/list");
     }
-    //todo: 등록의 겟방식과 포스트 방식이 두개 쓰인 이유 이해하고 설명해보기
     
 }

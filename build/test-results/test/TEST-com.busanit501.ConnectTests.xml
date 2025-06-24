@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.busanit501.ConnectTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-24T02:10:26" hostname="DESKTOP-U4QFL6E" time="0.094">
+  <properties/>
+  <testcase name="testConnection()" classname="com.busanit501.ConnectTests" time="0.092"/>
+  <testcase name="test1()" classname="com.busanit501.ConnectTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

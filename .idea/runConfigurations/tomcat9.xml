@@ -83,9 +83,7 @@
     </ConfigurationWrapper>
     <method v="2">
       <option name="Make" enabled="true" />
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="Gradle : com.busanit501 : Hello_Project-1.0-SNAPSHOT.war (exploded)" />
-      </option>
+      <option name="BuildArtifacts" enabled="true" />
     </method>
   </configuration>
 </component>

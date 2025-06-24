@@ -23,27 +23,26 @@ public class ConnectTests {
     public void testConnection() throws Exception{
         // 1 드라이버 연결.
         Class.forName("org.mariadb.jdbc.Driver");
-
-        // 2 연결 커넥션 객체 도구 이용.
-        // 접근 하는 디비 서버 1) 주소 2) 계정 3) 패스워드
+        
+        // 2 연결 커넥션 객체 도구 이용. 
+        // 접근 하는 디비 서버 1) 주소 2) 계정 3) 패스워드 
         Connection connection = DriverManager.getConnection(
-                "jdbc:mariadb://localhost:3306/webdb",
-                "webuser",
+                "jdbc:mariadb://localhost:3306/webdb", 
+                "webuser", 
                 "webuser"
         );
-
-        // 3. 연결 도구의 객체가 유효한지, 체크
+        
+        // 3. 연결 도구의 객체가 유효한지, 체크 
         Assertions.assertNotNull(connection);
-
+        
         // 4. 확인 후, 자원 반납
         connection.close();
-
-
-
-
-
+        
+        
     }
 
+
+    //3번째, Hikari CP 이용한 접근 테스트
     @Test
     public void testHikariCP() throws Exception{
         // 1, 히카리 이용하기 위한 객체 도구 필요함.
@@ -72,8 +71,13 @@ public class ConnectTests {
 
     }
 
-
-
-
-
 }
+
+
+
+
+
+
+
+
+

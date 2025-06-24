@@ -1,4 +1,4 @@
-package com.busanit501.hello_project.domain;
+package com.busanit501.hello_project._3jdbc.domain;
 
 import lombok.Builder;
 import lombok.Getter;

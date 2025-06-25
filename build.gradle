@@ -43,7 +43,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
     implementation 'org.mariadb.jdbc:mariadb-java-client:3.5.3'
 
-
     // 3
     // lombok , get/set/toString/ 기본 기능 편의 도구.
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
@@ -61,7 +60,19 @@ dependencies {
     // 4,
     // Hikari CP, 디비 연결시, 사용하는 도구,
     // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+    // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
     implementation group: 'com.zaxxer', name: 'HikariCP', version: '6.3.0'
+
+    // 5,
+    // 모델 맵퍼, DTO <-> VO 변환 해주는 도구.
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.2.4'
+
+
+
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.2.4'
+
 
 }
 

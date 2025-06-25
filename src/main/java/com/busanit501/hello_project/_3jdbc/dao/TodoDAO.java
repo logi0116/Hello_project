@@ -16,7 +16,7 @@ public class TodoDAO {
         try(Connection connection = ConnectionUtil.INSTANCE.getConnection();
             PreparedStatement pstmt = connection.prepareStatement("select now()");
             ResultSet rs = pstmt.executeQuery();){
-            // rs, 가상 테이블, 디비의 결과 내용을 테이블 형식으로 가지고 있다.
+        // rs, 가상 테이블, 디비의 결과 내용을 테이블 형식으로 가지고 있다.
             rs.next();
             now = rs.getString(1);
 

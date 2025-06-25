@@ -1,8 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.106" ALTERNATIVE_JRE_ENABLED="false">
     <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-    <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-    <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <option name="UPDATING_POLICY" value="redeploy-artifacts" />
     <deployment>
       <artifact name="Gradle : com.busanit501 : Hello_Project-1.0-SNAPSHOT.war (exploded)">
         <settings>
@@ -83,7 +82,9 @@
     </ConfigurationWrapper>
     <method v="2">
       <option name="Make" enabled="true" />
-      <option name="BuildArtifacts" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="Gradle : com.busanit501 : Test_my-1.0-SNAPSHOT.war (exploded)" />
+      </option>
     </method>
   </configuration>
 </component>

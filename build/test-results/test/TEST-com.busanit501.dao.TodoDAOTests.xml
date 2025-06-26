@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.busanit501.dao.TodoDAOTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-06-25T02:24:17" hostname="DESKTOP-U4QFL6E" time="0.057">
+<testsuite name="com.busanit501.dao.TodoDAOTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-26T03:31:06" hostname="DESKTOP-U4QFL6E" time="0.562">
   <properties/>
-  <testcase name="testUpdateOne()" classname="com.busanit501.dao.TodoDAOTests" time="0.028"/>
-  <testcase name="testTime2()" classname="com.busanit501.dao.TodoDAOTests" time="0.007"/>
-  <testcase name="testList()" classname="com.busanit501.dao.TodoDAOTests" time="0.003"/>
-  <testcase name="testTime()" classname="com.busanit501.dao.TodoDAOTests" time="0.003"/>
-  <testcase name="testSelectOne()" classname="com.busanit501.dao.TodoDAOTests" time="0.002"/>
-  <testcase name="testDeleteOne()" classname="com.busanit501.dao.TodoDAOTests" time="0.004"/>
-  <testcase name="testInsert()" classname="com.busanit501.dao.TodoDAOTests" time="0.004"/>
-  <system-out><![CDATA[testTime : 2025-06-25 11:24:18
-TodoVO(tno=3, title=수정 제목33333333, dueDate=2025-06-25, finished=true)
-TodoVO(tno=4, title=샘플 제목, dueDate=2025-06-24, finished=false)
-testTime : 2025-06-25 11:24:18
-TodoVO(tno=4, title=샘플 제목, dueDate=2025-06-24, finished=false)
-삭제 완료
+  <testcase name="testSelectOne()" classname="com.busanit501.dao.TodoDAOTests" time="0.562"/>
+  <system-out><![CDATA[12:31:06.673 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+12:31:06.772 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4201a617
+12:31:06.774 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+TodoVO(tno=13, title=제목만 변경해보기., dueDate=2025-06-26, finished=false)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

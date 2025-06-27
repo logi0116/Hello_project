@@ -23,3 +23,4 @@
 12:05:12.703 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=null)
 12:15:01.961 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=null)
 12:19:27.451 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=null)
+14:23:19.356 [Test worker] INFO  com.busanit501.service.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)

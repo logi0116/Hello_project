@@ -1,4 +1,4 @@
-`12:31:06.673 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
-�12:31:06.772 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4201a617
-e12:31:06.774 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
-VTodoVO(tno=13, title=제목만 변경해보기., dueDate=2025-06-26, finished=false)
+`12:19:27.338 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+�12:19:27.433 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6a175569
+e12:19:27.434 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+12:19:27.451 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=null)

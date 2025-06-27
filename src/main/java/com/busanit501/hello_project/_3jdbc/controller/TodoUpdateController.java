@@ -32,7 +32,7 @@ public class TodoUpdateController extends HttpServlet {
             // 화면 전달.
             request.getRequestDispatcher("/WEB-INF/todo/todoUpdate.jsp").forward(request, response);
 
-
+            
         } catch (Exception e) {
             log.error(e.getMessage());
             throw new ServletException("수정폼 조회 에러");

@@ -24,3 +24,6 @@
 12:15:01.961 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=null)
 12:19:27.451 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=null)
 14:23:19.356 [Test worker] INFO  com.busanit501.service.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+14:55:28.560 [Test worker] INFO  com.busanit501.service.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+15:37:23.672 [Test worker] INFO  com.busanit501.service.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+16:50:53.194 [Test worker] INFO  com.busanit501.service.MemberServiceTests-MemberService 테스트, uuid 로 검색한 유저 :  MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=7719961e-268b-4019-a9e5-1935203cbecf)

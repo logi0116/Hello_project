@@ -19,6 +19,9 @@
 <%----%>
 <%--조건부 출력--%>
 <c:if test="${not empty sessionScope.loginInfo}">
+    <h2>서블릿 리스너에서, 서버 시작시 등록된 값을 이번에는 화면에서 불러와서 사용해보기</h2>
+    <h3>${lunchMenu}</h3>
+
     <p>로그인 상태 : 로그인된 경우 </p>
     <p>EL 표기법 , 간단히 로그인 정보 sessionScope.loginInfo : ${sessionScope.loginInfo}</p>
 
@@ -26,6 +29,7 @@
     <h3>mid : ${loginInfo.mid}</h3>
     <h3>mpw : ${loginInfo.mpw}</h3>
     <h3>mname : ${loginInfo.mname}</h3>
+    <h3>uuid : ${loginInfo.uuid}</h3>
     <form action="/logout" method="post">
         <button type="submit">로그아웃</button>
     </form>

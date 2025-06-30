@@ -1,4 +1,4 @@
-`14:23:19.221 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
-�14:23:19.316 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3e1162e7
-e14:23:19.318 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
-�14:23:19.356 [Test worker] INFO  com.busanit501.service.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+`16:50:53.055 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+�16:50:53.154 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6bb7cce7
+e16:50:53.155 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+�16:50:53.194 [Test worker] INFO  com.busanit501.service.MemberServiceTests-MemberService 테스트, uuid 로 검색한 유저 :  MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=7719961e-268b-4019-a9e5-1935203cbecf)
